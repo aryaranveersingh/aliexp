@@ -1,0 +1,123 @@
+body{
+  text-rendering: optimizelegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'frutiger_45_lightnormal', Arial, sans-serif;
+  color: #646464;
+  background-color: #FFF;
+}
+/*stylesheet */
+@font-face {
+    font-family: 'frutiger_55_romannormal';
+    src: url('../fonts/ftr_____-webfont.eot');
+    src: url('../fonts/ftr_____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ftr_____-webfont.woff') format('woff'),
+         url('../fonts/ftr_____-webfont.ttf') format('truetype'),
+         url('../fonts/ftr_____-webfont.svg#frutiger_55_romannormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'frutiger_65_bold';
+    src: url('../fonts/Ftb_____.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'frutiger_45_lightnormal';
+    src: url('../fonts/ftl_____-webfont.eot');
+    src: url('../fonts/ftl_____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ftl_____-webfont.woff') format('woff'),
+         url('../fonts/ftl_____-webfont.ttf') format('truetype'),
+         url('../fonts/ftl_____-webfont.svg#frutiger_45_lightnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'frutiger_45_lightitalic';
+    src: url('../fonts/ftli____-webfont.eot');
+    src: url('../fonts/ftli____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ftli____-webfont.woff') format('woff'),
+         url('../fonts/ftli____-webfont.ttf') format('truetype'),
+         url('../fonts/ftli____-webfont.svg#frutiger_45_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.formback{
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.colspan{
+  margin-left: 10px;
+}
+.beautify-top{
+  margin-top: 20px;
+}
+.stopper{
+  background-color: #D81B60;
+  color: white;
+  font-weight: 600;
+}
+.btn-stop{
+  background-color: #D81B60;
+  color: white;
+  font-weight: 600;
+}
+.deletepannel{
+  margin-bottom: 50px;
+}
+.btn-primary{
+  background-color: #3F51B5 !important;
+  font-weight: 600 !important;
+}
+.btn-info{
+  font-weight: 600 !important;
+}
+.selectors{
+  display: none;
+}
+
+/* Sign In area CSS*/
+.topNav{
+  background-color: #37474F;
+  height: 50px;
+  
+  left:0;
+
+}
+
+.topNav .signText{
+  color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.topNav .signText .navbar-link{
+  margin-right: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.signText .navbar-link{
+  background-color: white;
+  padding: 8px 14px;
+  color: black;
+}
+
+.forms-container{
+
+  margin-top:100px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 800px;
+
+}
